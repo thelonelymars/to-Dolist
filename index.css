@@ -1,0 +1,123 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.main{
+    display:flex;
+  justify-content:center;
+  flex-direction: column;
+    align-items:center;
+    height: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+    
+}
+.Buttons{
+    display: flex;
+    justify-content: space-around;
+    width: 20rem;
+    margin-top: 2%;
+    
+}
+.h1{
+  font-family:'Courier New', Courier, monospace;
+}
+.container-fluid{
+  
+  display:flex;
+  justify-content:center;
+  flex-direction: column;
+    align-items:center;
+    height: 100%;
+    width: 100%;
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
+  background-image: url("img/Free-Download-Abstract-Backgrounds-HD-1105343321.jpeg");
+}
+.outer_layer{
+  display:flex;
+  padding-top: 5%;
+  align-items: center;
+  align-content: space-evenly;
+  justify-content: flex-start;
+  flex-direction: column;
+    background-color: white;
+    height: 80%;
+    width: 40%;
+}
+.outer_calc{
+  display: flex;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: center;
+  background-color: white;
+  height: 80%;
+  width: 40%;
+}
+.input_layer{
+  display:flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+  padding-top: 2%;
+  padding-bottom: 2%;
+    background-color: white;
+   
+}
+.inner_layer{
+  display:flex;
+  align-items: flex-start;
+  align-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
+    height: 50%;
+    width: 70%;
+    overflow: scroll;
+}
+.button_black{
+  width: 50%;
+}
+.input_bt{
+  margin-right: 10%; 
+}
+.reset{
+  display:flex;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  flex-direction: row;
+}
+@media (max-width: 480px){
+  .outer_layer{
+    display:flex;
+    padding-top: 5%;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: flex-start;
+    flex-direction: column;
+      background-color: white;
+      height: 80%;
+      width: 80%;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .outer_layer{
+    display:flex;
+    padding-top: 5%;
+    align-items: center;
+    align-content: space-evenly;
+    justify-content: flex-start;
+    flex-direction: column;
+      background-color: white;
+      height: 80%;
+      width: 70%;
+  }
+}
+@media (min-width: 1025px){
+ 
+}
+
+
